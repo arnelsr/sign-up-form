@@ -1,0 +1,45 @@
+@font-face {
+  font-family: odinFont;
+  src: url(../fonts/Norse-Bold.otf);
+}
+html {
+    height: 100vh;
+   
+}
+body {
+    
+    background-image: url('../images/background-image2.jpg');
+
+
+   
+    height: 100vh;
+    padding:0;
+    margin:0;
+   
+  }
+.page {
+  display:flex;
+  
+ 
+
+  
+  }
+.logo {
+    display: flex;
+   
+    background-color: rgba(0,0,0,.4);
+    height: 10rem;
+    margin-top: 20rem;
+    width: 40vw;
+    padding-left: 10rem;
+    color: white;
+    font-family: odinFont;
+    font-size: 8rem;
+   
+}
+.form {
+    background-color: white;
+    width:75vw;
+    height:100vh;
+ 
+}
