@@ -4,6 +4,7 @@
 }
 html {
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 body {
@@ -38,8 +39,53 @@ body {
    
 }
 .form {
-    background-color: white;
+    background-color: rgb(235, 238, 238);
     width:75vw;
     height:100vh;
+    
  
 }
+.form-top-text {
+  
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 8rem;
+  
+  
+}
+form{
+  background-color: white;
+  padding-left: 2rem;
+    padding-right: 8rem;
+    margin-top:3rem;
+    padding-top: 1rem;
+}
+fieldset {
+  border: none;
+  
+  padding-bottom: 1rem;
+  
+}
+legend{
+  font-size: 20px;
+  font-weight: bold;
+}
+label{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.input-pair{
+  display:flex;
+  justify-content: space-between;
+  align-items: start;
+  
+}
+input,label{
+  display:block;
+}
+
+
+
