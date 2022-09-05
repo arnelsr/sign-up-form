@@ -79,13 +79,45 @@ label{
 
 .input-pair{
   display:flex;
-  justify-content: space-between;
-  align-items: start;
+  justify-content: start;
+  
+  
   
 }
 input,label{
   display:block;
 }
+input{
+  margin-right:50px;
+  border-color:#E5E7EB;
+  border-style:solid;
+  border-width:1px;
+}
+input:focus{
+  outline:none;
+  border-width:1px;
+  border-color: blue;
+  box-shadow: 1px 1px grey;
+  
+  
+
+}
 
 
+button{
+  background-color:#596D48;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  color:white;
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-right:2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+.bottom-form {
+  margin-top: 3rem;
+}
